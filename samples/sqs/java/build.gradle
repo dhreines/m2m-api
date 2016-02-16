@@ -34,4 +34,7 @@ dependencies {
     compile 'io.dropwizard.metrics:metrics-core:3.1.2'
     // Provides simple console based logging.
     compile 'org.slf4j:slf4j-simple:1.7.16'
+
+    // Required for ReactiveSqsConsumer
+    compile 'io.reactivex:rxjava:1.1.1'
 }
